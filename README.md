@@ -6,3 +6,7 @@
 - DeepTXT：  DSSM等文本相关深度学习算法
 
 Welcome to pull requests!
+
+# environments：
+- basic: python=2.7 tensorflow=1.4.0
+- din: python=3.6 tensorflow=1.9.0
