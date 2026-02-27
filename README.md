@@ -10,3 +10,6 @@ Welcome to pull requests!
 # environments：
 - basic: python=2.7 tensorflow=1.4.0
 - din: python=3.6 tensorflow=1.9.0
+
+# 增加内容
+- din 虚拟数据集转换tfrecord
