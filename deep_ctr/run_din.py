@@ -1,0 +1,15 @@
+python DIN.py \
+  --data_dir=./data \
+  --model_dir=./model \
+  --feature_size=1000 \
+  --field_size=10 \
+  --embedding_size=32 \
+  --batch_size=32 \
+  --num_epochs=5 \
+  --deep_layers=256,128,64 \
+  --dropout=0.5,0.5,0.5 \
+  --attention_layers=256 \
+  --attention_pooling=True \
+  --learning_rate=0.001 \
+  --task_type=train \
+  --log_steps=10
