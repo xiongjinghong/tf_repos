@@ -10,3 +10,8 @@ sh get_remap_fid.sh
 
 #step4 libsvm to tfrecords
 python get_tfrecord.py --threads=10 --input_dir=./ --output_dir=./
+
+1. log to libsvm sample  
+   ```bash
+   sh get_join_sample.sh
+   ```
